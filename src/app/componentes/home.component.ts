@@ -8,6 +8,7 @@ import { PruebaService } from '../servicios/prueba.service';
 export class HomeComponent{
   public titulo:string;
   public nombre:string;
+  public texto: string;
   constructor(
     private _prueba: PruebaService
   ){
